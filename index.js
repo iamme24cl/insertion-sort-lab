@@ -1,3 +1,13 @@
+// find the min given our original array and remove the element
+
+// now with the new array, again find the min and remove
+
+// keep doing this until the array is empty
+
+// push all these elements into an empty array one by one
+// and that will be our new sorted array
+
+
 function findMinAndRemove(array){
   let min = array[0];
   let minIndex = 0;
